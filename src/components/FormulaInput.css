@@ -1,0 +1,215 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+}
+.header_title {
+  background: #e5e7ea;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  width: 100%;
+  outline: none;
+  flex: 1;
+  flex: 1;
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #e5e7ea;
+}
+
+.toggle {
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 16px 0px 8px 16px;
+}
+
+/* FormulaInput.css */
+
+.formula-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.tag input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.tag button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #888;
+}
+
+.inputformula {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 1em;
+  flex: 1;
+  margin: 5px;
+}
+
+.autocomplete-suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.autocomplete-suggestions li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.autocomplete-suggestions li:hover {
+  background: #f0f0f0;
+}
+
+.segments {
+  margin-top: 10px;
+}
+
+.segment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.segment input {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 1em;
+  flex: 1;
+}
+
+.segment input::placeholder {
+  color: #aaa;
+}
+
+.segment button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #888;
+}
+
+.add-segment-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #00f;
+  text-decoration: underline;
+}
+
+/* FormulaInput.css */
+
+.result {
+  font-size: 1em;
+  background: #f6f8fa;
+  padding: 16px;
+  /* margin-bottom: 10px; */
+}
+.segmentInput {
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.tag input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.tag button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.inputformula {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.autocomplete-suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.autocomplete-suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete-suggestions li:hover {
+  background: #f0f0f0;
+}
+
+.remove-formula-button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
